@@ -616,7 +616,7 @@ public class Minecraft implements IThreadListener, ISnooperInfo
 
         FlamingImpl flaming = new FlamingImpl(this);
         flaming.start();
-
+//
         if (this.serverName != null)
         {
             this.displayGuiScreen(new GuiConnecting(new GuiMainMenu(), this, this.serverName, this.serverPort));
