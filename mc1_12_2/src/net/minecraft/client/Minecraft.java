@@ -217,6 +217,7 @@ import org.lwjgl.opengl.GLContext;
 import org.lwjgl.opengl.OpenGLException;
 import org.lwjgl.opengl.PixelFormat;
 import org.lwjgl.util.glu.GLU;
+import xyz.ixidi.flaming.v1_12_2.FlamingImpl;
 
 public class Minecraft implements IThreadListener, ISnooperInfo
 {
@@ -612,6 +613,9 @@ public class Minecraft implements IThreadListener, ISnooperInfo
         this.effectRenderer = new ParticleManager(this.world, this.renderEngine);
         this.checkGLError("Post startup");
         this.ingameGUI = new GuiIngame(this);
+
+        FlamingImpl flaming = new FlamingImpl(this);
+        flaming.start();
 
         if (this.serverName != null)
         {

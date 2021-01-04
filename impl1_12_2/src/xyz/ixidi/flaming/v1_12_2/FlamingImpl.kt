@@ -7,6 +7,8 @@ class FlamingImpl(
     private val minecraft: Minecraft
 ) : Flaming {
 
+    fun start() {
 
+    }
 
 }
