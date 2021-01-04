@@ -225,6 +225,8 @@ public class Minecraft implements IThreadListener, ISnooperInfo
     private static final ResourceLocation LOCATION_MOJANG_PNG = new ResourceLocation("textures/gui/title/mojang.png");
     public static final boolean IS_RUNNING_ON_MAC = Util.getOSType() == Util.EnumOS.OSX;
 
+    private FlamingImpl flaming;
+
     /**
      * A 10MiB preallocation to ensure the heap is reasonably sized. {@linkplain #freeMemory() Freed} when the game runs
      * out of memory.
@@ -524,6 +526,10 @@ public class Minecraft implements IThreadListener, ISnooperInfo
         }
     }
 
+    public FlamingImpl getFlaming() {
+        return flaming;
+    }
+
     /**
      * Starts the game: initializes the canvas, the title, the settings, etcetera.
      */
@@ -614,9 +620,9 @@ public class Minecraft implements IThreadListener, ISnooperInfo
         this.checkGLError("Post startup");
         this.ingameGUI = new GuiIngame(this);
 
-        FlamingImpl flaming = new FlamingImpl(this);
+        this.flaming = new FlamingImpl(this);
         flaming.start();
-//
+
         if (this.serverName != null)
         {
             this.displayGuiScreen(new GuiConnecting(new GuiMainMenu(), this, this.serverName, this.serverPort));

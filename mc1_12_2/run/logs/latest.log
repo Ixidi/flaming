@@ -1,14 +1,47 @@
-[18:11:23] [Client thread/INFO]: Setting user: Player530
-[18:11:25] [Client thread/WARN]: Skipping bad option: lastServer:
-[18:11:25] [Client thread/INFO]: LWJGL Version: 2.9.4
-[18:11:25] [Client thread/INFO]: Reloading ResourceManager: Default
-[18:11:26] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[18:11:26] [Thread-3/INFO]: Initializing LWJGL OpenAL
-[18:11:26] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[18:11:26] [Thread-3/INFO]: OpenAL initialized.
-[18:11:27] [Sound Library Loader/INFO]: Sound engine started
-[18:11:31] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[18:11:33] [Client thread/INFO]: Narrator library for x64 successfully loaded
-[18:11:34] [Client thread/INFO]: Stopping!
-[18:11:34] [Client thread/INFO]: SoundSystem shutting down...
-[18:11:35] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[21:14:17] [Client thread/INFO]: Setting user: Player906
+[21:14:18] [Client thread/WARN]: Skipping bad option: lastServer:
+[21:14:18] [Client thread/INFO]: LWJGL Version: 2.9.4
+[21:14:19] [Client thread/INFO]: Reloading ResourceManager: Default
+[21:14:20] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:14:20] [Thread-3/INFO]: Initializing LWJGL OpenAL
+[21:14:20] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:14:20] [Thread-3/INFO]: OpenAL initialized.
+[21:14:20] [Sound Library Loader/INFO]: Sound engine started
+[21:14:24] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[21:14:26] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[21:14:27] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[21:15:25] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[21:15:25] [Server thread/INFO]: Generating keypair
+[21:15:25] [Server thread/INFO]: Loaded 488 advancements
+[21:15:25] [Server thread/INFO]: Preparing start region for level 0
+[21:15:26] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID 60928371-5d72-41e6-a394-c55e1182f8e4
+[21:15:26] [Server thread/WARN]: Keeping entity minecraft:chicken that already exists with UUID 7d23aaac-9d1f-420b-9528-2d5d172e8ff4
+[21:15:26] [Server thread/INFO]: Preparing spawn area: 82%
+[21:15:27] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:15:28] [Server thread/INFO]: Player906[local:E:8a6025e4] logged in with entity id 399 at (200.6085103581559, 66.0, 239.13943602706073)
+[21:15:28] [Server thread/INFO]: Player906 joined the game
+[21:15:29] [Server thread/INFO]: Saving and pausing game...
+[21:15:29] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[21:15:29] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[21:15:29] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[21:15:33] [Server thread/INFO]: Saving and pausing game...
+[21:15:33] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[21:15:33] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[21:15:33] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[21:15:39] [Server thread/INFO]: Saving and pausing game...
+[21:15:39] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[21:15:39] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[21:15:39] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[21:15:54] [Server thread/INFO]: Saving and pausing game...
+[21:15:54] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[21:15:55] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[21:15:55] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[21:15:57] [Client thread/INFO]: Loaded 7 advancements
+[21:16:00] [Server thread/INFO]: Saving and pausing game...
+[21:16:00] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[21:16:00] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[21:16:00] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[21:16:08] [Server thread/INFO]: Saving and pausing game...
+[21:16:08] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[21:16:08] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[21:16:08] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
